@@ -45,7 +45,7 @@ When launched with elevated Administrator privileges, the tool auto-detects the 
 
 ## 🚀 Installation & Usage
 
-### 1. Clone the Repository
+### 1. Clone the Repository | Install Git https://git-scm.com/
 Open **PowerShell** or **Command Prompt** and run:
 
 ```bash
