@@ -28,7 +28,12 @@ When launched with elevated Administrator privileges, the tool auto-detects the 
 | **0** | **Exit** | Safely exits the tool. | - |
 
 ---
-<img width="1838" height="1020" alt="Screenshot 2026-11-12 151009" src="https://github.com/user-attachments/assets/912955c7-c2a4-4673-b9f6-67766d552d44" />
+
+<p align="center">
+<img width="750" alt="Screenshot 2026-11-12 151009" src="https://github.com/user-attachments/assets/912955c7-c2a4-4673-b9f6-67766d552d44" />
+</p>
+
+---
 
 ## 📋 Prerequisites
 
