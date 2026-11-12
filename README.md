@@ -9,7 +9,7 @@ A registry-based Windows & Microsoft Office license administration and activatio
 
 **PLEASE READ THIS**
 
-I can no longer make my code publicly available, as doing so would be a clear violation. I am now focused on restricting access to all of my code. Please refrain from attempting to breach or extract the source code of the tools I have created; doing so shows a lack of respect for me, the person who built them.
+I can no longer make my code publicly available, as doing so would be a clear violation. I am now focused on restricting access to all of my code. Please refrain from attempting to breach or extract the source code of the tools I have created; doing so shows a lack of respect for me, the person who built them. A warning: please never misuse my tool, as it has repercussions for me; please use it wisely.
 
 ----
 ## 📌 Features & Menu Options
@@ -28,10 +28,11 @@ When launched with elevated Administrator privileges, the tool auto-detects the 
 | **0** | **Exit** | Safely exits the tool. | - |
 
 ---
+<img width="1838" height="1020" alt="Screenshot 2026-11-12 151009" src="https://github.com/user-attachments/assets/912955c7-c2a4-4673-b9f6-67766d552d44" />
 
 ## 📋 Prerequisites
 
-1. **Operating System**: Windows 10 / 11 / Server (64-bit recommended).
+1. **Operating System**: Windows 10 / 11 (32-bit / 64-bit).
 2. **Python**: Python 3.10+ installed on the system.
 3. **Privileges**: Administrator rights (the script will automatically prompt for UAC elevation if not already running as Admin).
 
