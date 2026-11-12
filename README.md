@@ -7,8 +7,11 @@ A registry-based Windows & Microsoft Office license administration and activatio
 
 ---
 
+**PLEASE READ THIS**
+
 I can no longer make my code publicly available, as doing so would be a clear violation. I am now focused on restricting access to all of my code. Please refrain from attempting to breach or extract the source code of the tools I have created; doing so shows a lack of respect for me, the person who built them.
 
+----
 ## 📌 Features & Menu Options
 
 When launched with elevated Administrator privileges, the tool auto-detects the current Windows edition and displays an interactive menu:
