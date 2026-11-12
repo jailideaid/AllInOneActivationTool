@@ -18,14 +18,14 @@ When launched with elevated Administrator privileges, the tool auto-detects the 
 
 | Option | Name | Description | Supported Editions / Targets |
 | :---: | :--- | :--- | :--- |
-| `[1]` | **Activate Windows 10** | Configures KMS setup and activates Windows 10 installations. | Home, Pro, Enterprise, Education, Single Language, etc. |
-| `[2]` | **Activate Windows 11** | Configures KMS setup and activates Windows 11 installations. | Home, Pro, Enterprise, Education, SE, etc. |
-| `[3]` | **Activate Microsoft Office 365** | Installs Volume License (VL) certificates and activates Office 365. | ProPlus VL suite with dedicated KMS hosts. |
-| `[4]` | **Activate Microsoft Office 2021** | Installs Volume License (VL) certificates and activates Office 2021. | Standard & Professional Plus 2021. |
-| `[5]` | **Activate Microsoft Office 2019** | Converts retail/MAK licenses to VL and activates Office 2019. | Standard & Professional Plus 2019. |
-| `[6]` | **Activate Microsoft Office 2016** | Converts retail/MAK licenses to VL and activates Office 2016. | Standard & Professional Plus 2016. |
-| `[7]` | **Activate Microsoft Visio** | Auto-detects installed Visio version and applies proper VL KMS license. | Visio 2016, 2019, 2021, and Visio 365. |
-| `[0]` | **Exit** | Safely exits the tool. | - |
+| **1** | **Activate Windows 10** | Configures KMS setup and activates Windows 10 installations. | Home, Pro, Enterprise, Education, Single Language, etc. |
+| **2** | **Activate Windows 11** | Configures KMS setup and activates Windows 11 installations. | Home, Pro, Enterprise, Education, SE, etc. |
+| **3** | **Activate Microsoft Office 365** | Installs Volume License (VL) certificates and activates Office 365. | ProPlus VL suite with dedicated KMS hosts. |
+| **4** | **Activate Microsoft Office 2021** | Installs Volume License (VL) certificates and activates Office 2021. | Standard & Professional Plus 2021. |
+| **5** | **Activate Microsoft Office 2019** | Converts retail/MAK licenses to VL and activates Office 2019. | Standard & Professional Plus 2019. |
+| **6** | **Activate Microsoft Office 2016** | Converts retail/MAK licenses to VL and activates Office 2016. | Standard & Professional Plus 2016. |
+| **7** | **Activate Microsoft Visio** | Auto-detects installed Visio version and applies proper VL KMS license. | Visio 2016, 2019, 2021, and Visio 365. |
+| **0** | **Exit** | Safely exits the tool. | - |
 
 ---
 
@@ -43,11 +43,9 @@ When launched with elevated Administrator privileges, the tool auto-detects the 
 Open **PowerShell** or **Command Prompt** and run:
 
 ```bash
-git clone https://github.com/USERNAME/REPOSITORY.git
-cd REPOSITORY
+git clone https://github.com/jailideaid/AllInOneActivationTool/
+cd AllInOneActivationTool
 ```
-
-*(Replace `USERNAME/REPOSITORY` with your actual repository path).*
 
 ---
 
