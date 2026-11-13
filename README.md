@@ -4,8 +4,11 @@
 
 <h1 align="center">AllInOneActivationTool</h1>
 
+<p align="justify">
 A registry-based Windows & Microsoft Office license administration and activation management tool. Designed to operate without requiring WMI queries, utilizing Windows built-in management tools (`slmgr.vbs` and `ospp.vbs`).
 Regarding the update, I am not placing it in the release location; instead, I will focus on the release location specifically for the update logs.
+</p>
+
 > [!TIP]
 > **NEW UPDATE METHOD**
 > **🚀 Fast One-Line Execution Available:** You can now run this tool directly using the standalone encrypted PowerShell command (`irm ... | iex`) without installing Python, or download the precompiled standalone executable (`main.exe`)!
@@ -13,8 +16,9 @@ Regarding the update, I am not placing it in the release location; instead, I wi
 ---
 
 **PLEASE READ THIS**
-
+<p align="justify">
 I can no longer make my code publicly available, as doing so would be a clear violation. I am now focused on restricting access to all of my code. Please refrain from attempting to breach or extract the source code of the tools I have created; doing so shows a lack of respect for me, the person who built them. A warning: please never misuse my tool, as it has repercussions for me; please use it wisely.
+</p>
 
 ---
 
@@ -114,6 +118,7 @@ Then run either:
 ---
 
 ## ⚠️ Disclaimer
-
+<p align="justify">
 This utility is provided strictly for educational purposes, IT system administration, and internal testing environments. Use responsibly in accordance with local software license agreements.
 I am currently focused on fixing bugs in this tool. If you encounter any troublesome bugs, please report them to my Gmail address: jailideaid@gmail.com
+</p>
