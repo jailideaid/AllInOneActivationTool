@@ -1,5 +1,5 @@
 <p align="center">
-<img width="500" alt="AllInOne Activation Tool" src="https://github.com/user-attachments/assets/3cf7f3af-8a77-449b-bc07-13f736978266" />
+<img width="300" alt="AllInOne Activation Tool" src="https://github.com/user-attachments/assets/3cf7f3af-8a77-449b-bc07-13f736978266" />
 </p>
 
 <h1 align="center">AllInOneActivationTool</h1>
