@@ -1,9 +1,10 @@
 # AllInOneActivationTool
 
-A registry-based Windows & Microsoft Office license administration and activation management script. Designed to operate without requiring WMI queries, utilizing Windows built-in management tools (`slmgr.vbs` and `ospp.vbs`).
+A registry-based Windows & Microsoft Office license administration and activation management tool. Designed to operate without requiring WMI queries, utilizing Windows built-in management tools (`slmgr.vbs` and `ospp.vbs`).
 
 > [!TIP]
-> **🚀 Coming Soon:** A dedicated standalone PowerShell execution mode (`.ps1`) is currently under development to enable one-line execution directly via `irm ... | iex` without requiring Python to be installed!
+> **NEW UPDATE METHOD**
+> **🚀 Fast One-Line Execution Available:** You can now run this tool directly using the standalone encrypted PowerShell command (`irm ... | iex`) without installing Python, or download the precompiled standalone executable (`main.exe`)!
 
 ---
 
@@ -11,7 +12,8 @@ A registry-based Windows & Microsoft Office license administration and activatio
 
 I can no longer make my code publicly available, as doing so would be a clear violation. I am now focused on restricting access to all of my code. Please refrain from attempting to breach or extract the source code of the tools I have created; doing so shows a lack of respect for me, the person who built them. A warning: please never misuse my tool, as it has repercussions for me; please use it wisely.
 
-----
+---
+
 ## 📌 Features & Menu Options
 
 When launched with elevated Administrator privileges, the tool auto-detects the current Windows edition and displays an interactive menu:
@@ -38,48 +40,62 @@ When launched with elevated Administrator privileges, the tool auto-detects the 
 ## 📋 Prerequisites
 
 1. **Operating System**: Windows 10 / 11 (32-bit / 64-bit).
-2. **Python**: Python 3.10+ installed on the system.
-3. **Privileges**: Administrator rights (the script will automatically prompt for UAC elevation if not already running as Admin).
+2. **Internet Connection**: Required for connecting to KMS activation hosts.
+3. **Privileges**: Administrator rights (the tool will automatically prompt for UAC elevation if not already running as Admin).
 
 ---
 
-## 🚀 Installation & Usage
+## 🚀 How to Run
 
-### 1. Clone the Repository | Install Git https://git-scm.com/
-Open **PowerShell** or **Command Prompt** and run:
+Choose the method that best suits your workflow:
 
-```bash
+### 🔹 Method 1: One-Line PowerShell (Direct `irm | iex`) — *Most Convenient*
+No file download or third-party software (Python/Git) required. Simply open **PowerShell as Administrator** and execute:
+
+```powershell
+irm https://raw.githubusercontent.com/jailideaid/AllInOneActivationTool/main/main.ps1 | iex
+```
+
+> **Security Note**: This script is fully encrypted using **AES-256** and GZip. The payload is securely decrypted directly in RAM (*in-memory execution*) without ever writing raw unencrypted scripts to disk.
+
+---
+
+### 🔹 Method 2: Standalone Executable (`main.exe`) — *No CLI Needed*
+1. Download **`main.exe`** from this repository's releases or files.
+2. Double-click **`main.exe`**.
+3. Click **Yes** on the User Account Control (UAC) prompt. The interactive menu will launch immediately.
+
+---
+
+### 🔹 Method 3: Manual Clone via Git (Local Execution)
+If you prefer to clone and inspect the repository locally:
+
+```powershell
 git clone https://github.com/jailideaid/AllInOneActivationTool/
 cd AllInOneActivationTool
 ```
 
----
-
-### 2. Run the Script
-
-Run the main file:
-
-```bash
-python main.py
-```
-
-Follow the on-screen numbered prompts by selecting `1` through `7` according to your target activation.
+Then run either:
+- The compiled standalone executable:
+  ```powershell
+  .\main.exe
+  ```
+- Or the encrypted PowerShell script:
+  ```powershell
+  powershell -ExecutionPolicy Bypass -File .\main.ps1
+  ```
 
 ---
 
 ## 📂 Repository Structure
 
 ```text
-├── main.py                  # Obfuscated execution script
-├── pyarmor_runtime_000000/  # Required binary runtime module
-│   ├── pyarmor_runtime.pyd
-│   └── __init__.py
-├── .gitignore
+├── main.exe                 # Standalone compiled executable (AES-256 protected)
+├── main.ps1       # Encrypted PowerShell script (One-line irm | iex compatible)
+├── build_secure.ps1         # Security builder to compile & encrypt source
+├── app.manifest             # Windows UAC elevation manifest
 └── README.md
 ```
-
-> [!IMPORTANT]
-> The `pyarmor_runtime_000000` directory must always be kept alongside `main.py` in the root repository. Do not delete or rename it.
 
 ---
 
