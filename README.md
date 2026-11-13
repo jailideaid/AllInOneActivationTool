@@ -1,7 +1,7 @@
 # AllInOneActivationTool
 
 A registry-based Windows & Microsoft Office license administration and activation management tool. Designed to operate without requiring WMI queries, utilizing Windows built-in management tools (`slmgr.vbs` and `ospp.vbs`).
-
+Regarding the update, I am not placing it in the release location; instead, I will focus on the release location specifically for the update logs.
 > [!TIP]
 > **NEW UPDATE METHOD**
 > **🚀 Fast One-Line Execution Available:** You can now run this tool directly using the standalone encrypted PowerShell command (`irm ... | iex`) without installing Python, or download the precompiled standalone executable (`main.exe`)!
