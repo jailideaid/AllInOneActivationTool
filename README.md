@@ -44,6 +44,7 @@ When launched with elevated Administrator privileges, the tool auto-detects the 
 <p align="center">
 <img width="750" alt="Screenshot 2026-11-13 130417" src="https://github.com/user-attachments/assets/e40bc63b-7e0b-4eac-a039-5b8f1b6518f5" />
 </p>
+
 ---
 
 ## 📋 Prerequisites
