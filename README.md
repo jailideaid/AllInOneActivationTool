@@ -1,4 +1,8 @@
-# AllInOneActivationTool
+<p align="center">
+<img width="500" alt="AllInOne Activation Tool" src="https://github.com/user-attachments/assets/3cf7f3af-8a77-449b-bc07-13f736978266" />
+</p>
+
+<h1 align="center">AllInOneActivationTool</h1>
 
 A registry-based Windows & Microsoft Office license administration and activation management tool. Designed to operate without requiring WMI queries, utilizing Windows built-in management tools (`slmgr.vbs` and `ospp.vbs`).
 Regarding the update, I am not placing it in the release location; instead, I will focus on the release location specifically for the update logs.
