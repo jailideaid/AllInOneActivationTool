@@ -30,11 +30,20 @@ When launched with elevated Administrator privileges, the tool auto-detects the 
 | **0** | **Exit** | Safely exits the tool. | - |
 
 ---
-
+> **VERSION .PY**
 <p align="center">
 <img width="750" alt="Screenshot 2026-11-12 151009" src="https://github.com/user-attachments/assets/912955c7-c2a4-4673-b9f6-67766d552d44" />
 </p>
 
+> **VERSION .PS1**
+<p align="center">
+<img width="750" alt="Screenshot 2026-11-13 130401" src="https://github.com/user-attachments/assets/94c24807-2fa7-4d8a-b005-3c9c34718c2b" />
+</p>
+
+> **VERSION .EXE**
+<p align="center">
+<img width="750" alt="Screenshot 2026-11-13 130417" src="https://github.com/user-attachments/assets/e40bc63b-7e0b-4eac-a039-5b8f1b6518f5" />
+</p>
 ---
 
 ## 📋 Prerequisites
