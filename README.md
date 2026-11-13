@@ -53,7 +53,7 @@ Choose the method that best suits your workflow:
 No file download or third-party software (Python/Git) required. Simply open **PowerShell as Administrator** and execute:
 
 ```powershell
-irm https://raw.githubusercontent.com/jailideaid/AllInOneActivationTool/main/main.ps1 | iex
+irm https://raw.githubusercontent.com/jailideaid/AllInOneActivationTool/refs/heads/main/MainScript/main.ps1 | iex
 ```
 
 > **Security Note**: This script is fully encrypted using **AES-256** and GZip. The payload is securely decrypted directly in RAM (*in-memory execution*) without ever writing raw unencrypted scripts to disk.
